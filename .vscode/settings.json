@@ -1,5 +1,4 @@
 {
-    "python.pythonPath": "/home/peter/.virtualenvs/core-team-minutes/bin/python",
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.pylintEnabled": false
