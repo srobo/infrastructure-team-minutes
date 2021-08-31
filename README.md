@@ -20,7 +20,7 @@ instance. There is a Python script to support this:
 ```
 ./scripts/create-actions.py 2018/2018-11-21.md
 ```
-The script requires Python 3.5+ and the [requests][python-requests] library. It
+The script requires Python 3.6+ and the [requests][python-requests] library. It
 uses the [GitHub REST API v3][github-rest-api], for which you should create a
 [Personal Access Token][api-tokens] with scope `repo:public_repo`.
 

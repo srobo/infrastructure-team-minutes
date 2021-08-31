@@ -9,18 +9,17 @@ import requests
 
 GitHubIdentity = typing.NewType('GitHubIdentity', str)
 
-Issue = typing.NamedTuple('Issue', (
-    ('id', int),
-    ('url', str),
-    ('assignees', typing.List[GitHubIdentity]),
-    ('title', str),
-))
+class Issue(typing.NamedTuple):
+    id: int
+    url: str
+    assignees: typing.List[GitHubIdentity]
+    title: str
 
 
 def get_credentials() -> typing.Tuple[str, str]:
     config_file = Path(__file__).parent.parent / '.config.json'
 
-    data = {}  # type: typing.Dict[str, str]
+    data: typing.Dict[str, str] = {}
     username = None
     password = None
 
