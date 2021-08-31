@@ -5,11 +5,11 @@ import urllib.parse
 REPO_OWNER = 'srobo'
 REPO_NAME = 'infrastructure-team-minutes'
 
-Action = typing.NamedTuple('Action', (
-    ('id', typing.Optional[int]),
-    ('owner', str),
-    ('title', str),
-))
+class Action(typing.NamedTuple):
+    id: typing.Optional[int]
+    owner: str
+    title: str
+
 
 ISSUES_URL = 'https://github.com/{}/{}/issues/'.format(REPO_OWNER, REPO_NAME)
 
