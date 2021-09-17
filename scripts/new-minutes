@@ -8,7 +8,7 @@ fi
 cd $(dirname $0)/..
 
 DATE=$(date -I)
-YEAR=${DATE/-*/}
+YEAR=${DATE%%-*}
 
 git checkout -b $DATE
 mkdir -p $YEAR
