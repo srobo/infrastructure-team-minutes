@@ -24,7 +24,7 @@ The script requires Python 3.6+ and the [requests][python-requests] library. It
 uses the [GitHub REST API v3][github-rest-api], for which you should create a
 [Personal Access Token][api-tokens] with scope `repo:public_repo`.
 
-[infrastructure-team]: https://opsmanual.studentrobotics.org/annual-robotics-infrastructure/infrastructure-programme-team
+[infrastructure-team]: https://opsmanual.studentrobotics.org/internal-structure/infrastructure-team
 [github-issues]: https://github.com/srobo/infrastructure-team-minutes/issues
 [python-requests]: https://pypi.org/project/requests
 [github-rest-api]: https://developer.github.com/v3/issues/
