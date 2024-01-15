@@ -22,10 +22,10 @@ instance. There is a Python script to support this:
 ```
 The script requires Python 3.6+ and the [requests][python-requests] library. It
 uses the [GitHub REST API v3][github-rest-api], for which you should create a
-[Personal Access Token][api-tokens] with scope `repo:public_repo`.
+[Personal Access Token][api-tokens] with "Read and Write" access to "Issues".
 
 [infrastructure-team]: https://opsmanual.studentrobotics.org/internal-structure/infrastructure-team
 [github-issues]: https://github.com/srobo/infrastructure-team-minutes/issues
 [python-requests]: https://pypi.org/project/requests
 [github-rest-api]: https://developer.github.com/v3/issues/
-[api-tokens]: https://blog.github.com/2013-05-16-personal-api-tokens/
+[api-tokens]: https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/
